@@ -1,0 +1,13 @@
+{
+  "projectId": "9f31c161-cae8-4f94-b36d-41aed6891bef",
+  "webhookUrl": "https://nice-rabbits-look.loca.lt/api/claude-code/progress",
+  "hooks": {
+    "enabled": true,
+    "events": [
+      "SessionStart",
+      "SessionEnd",
+      "PreToolUse",
+      "PostToolUse"
+    ]
+  }
+}
